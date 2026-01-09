@@ -63,7 +63,6 @@ configure() {
 		--without-http_fastcgi_module \
 		--without-http_uwsgi_module \
 		--without-http_scgi_module \
-		--without-http_grpc_module \
 		--without-http_memcached_module \
 		"$@"
 
