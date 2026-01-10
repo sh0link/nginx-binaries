@@ -316,6 +316,8 @@ jobs:
       - nginx-x86_64-win32
     if: github.ref == 'refs/heads/master' && github.event_name != 'pull_request'
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     container:
       image: docker://alpine:3.21
     steps:
